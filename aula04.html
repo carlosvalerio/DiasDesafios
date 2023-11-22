@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title> Aula03 </title>
+</head>
+<body>
+       <script>
+      var nSecreto = parseInt(Math.random() * 21);
+while (chute != nSecreto) {
+  var chute = prompt("Digite um  numero entre 1 e 20");
+  // se o numero digitado for iqual o numero secreto
+  if (chute == nSecreto) {
+    alert("você acertou parabens");
+  } else if (chute > nSecreto) {
+    alert("o numero secreto é menor");
+  } else if (chute < nSecreto) {
+    alert("o numero secreto e maior");
+  }
+}
+
+   
+       </script>             
+      </body>
+</html>
